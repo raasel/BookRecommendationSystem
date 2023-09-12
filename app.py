@@ -14,7 +14,7 @@ import importfile
 
 
 ###############--------code for Dataset import and Data Preprocessing-------------###################
-
+st.set_option('client.displayEnabled', False)
 
 ###############--------End for Dataset import and Data Preprocessing-------------###################
 
