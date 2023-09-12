@@ -46,7 +46,7 @@ def search_books(query,book_list=importfile.us_canada_book_list,threshold=80):
     return [match[0] for match in matches if match[1] >= threshold]
 
 def main():
-    st.title("Book Recommendation System")
+    st.title("Book Recommendation System Using Matrix Factorization")
 
     book_name = st.text_input("Enter Book Title")
     if st.button("Search") or book_name:
